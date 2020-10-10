@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CIT-160 Template Document</title>
+    <title>CIT-160 Program 4.1 Sam Fuller</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Week 3: Template</h1>
+        <h1>Week 4 Calculator</h1>
         <h2>Sam Fuller</h2>
     </header>
     <main>
@@ -22,6 +22,18 @@
     </main>
     <footer>
         &copy;2020 &bull; Sam Fuller &bull; BYU-Idaho &bull; CIT 160
-    </footer>    
+    </footer> 
+    <script>
+        function addNumbers() {
+        // INPUT
+        let number1 = document.getElementById("number1").value;
+        let number2 = document.getElementById("number2").value;
+        // PROCESSING
+        number1 = parseFloat(number1);
+        number2 = parseFloat(number2);
+        // OUTPUT
+        let sum = number1 + number2;
+        }
+    </script>   
 </body>
 </html>
