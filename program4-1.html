@@ -15,10 +15,10 @@
     <main>
         <h3>Add Two Numbers</h3>
         <label>Enter Number One: <input type="text" id="number1"></label>
-      <label>Enter Number Two: <input type="text" id="number2"></label>
+        <label>Enter Number Two: <input type="text" id="number2"></label>
         <label><button type="button" onclick="addNumbers()">Add Numbers</button></label>
         <hr>
-        <p> id="output"> </p>
+        <p id="sum"></p>
     </main>
     <footer>
         &copy;2020 &bull; Sam Fuller &bull; BYU-Idaho &bull; CIT 160
@@ -26,18 +26,19 @@
     <script>
         function addNumbers() {
         // INPUT
-        let number1 = document.getElementById("number1").value);
-        let number2 = document.getElementById("number2").value);
+        let number1 = document.getElementById("number1").value;
+        let number2 = document.getElementById("number2").value;
 
         // PROCESSING
         // convert the input strings to numbers using parseFloat;
-        number1 = parseFloat("number1");
-        number2 = parseFloat("number2");
+        number1 = parseFloat(number1);
+        number2 = parseFloat(number2);
         // add two numbers together and store in my output variable
         let sum = number1 + number2;
 
         // OUTPUT
-        document.getElementById('output').innerHTML = " The sum is " + sum + "!";
+        document.getElementById("sum").innerHTML = " The sum is " + sum + "!";
+    }
     </script>  
 </body>
 </html>
