@@ -6,5 +6,5 @@ let pounds = parseFloat(document.getElementById('pounds').value);
 let kilograms = pounds / 2.20462262185;
 //OUTPUT
 document.getElementById('output').textContent =
-kilograms.toFixed(1) + " Kilograms";
+pounds + "  pounds is " + kilograms.toFixed(1) + " Kilograms";
 }
