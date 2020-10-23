@@ -11,7 +11,7 @@ function footWear() {
     } else if (weather == "Rain") {
         shoes = "If it is raining let's wear galoshes"
     } else if (weather == "Unknown") {
-        shoes = "Then it is hard to decide what to wear"
+        shoes = "Then it is hard to decide what shoes to wear"
     }
     let output = shoes;
 
