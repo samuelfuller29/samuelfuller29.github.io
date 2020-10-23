@@ -15,18 +15,19 @@
     </header>
     <main>
         <h3>Footwear</h3>
-        <label>
+        
+        <label for="select">Tell me what is the weather outside?</label>
             <select name="weather" id="weather">
                 <option value="" disabled selected>-- Select the Weather --</option>
-                <option value="snow">Snow</option>
-                <option value="rain">Rain</option>
-                <option value="hot">Hot</option>
-                <option value="unknown">Unknown</option>
+                <option value="Snow">Snow</option>
+                <option value="Rain">Rain</option>
+                <option value="Hot">Hot</option>
+                <option value="Unknown">Unknown</option>
             </select>
-        </label>
-        <label><button type="button" onclick="getShoes()">Get Shoes</button></label>
+        
+        <<label><button onclick="footWear()">Submit🚀</button></label>
         <hr>
-        <p>Output: <span id='output'></span></p>
+        <p id="output"></p>
     </main>
     <footer>
         &copy;2020 &bull; Sam Fuller &bull; BYU-Idaho &bull; CIT 160
