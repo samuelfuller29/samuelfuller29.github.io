@@ -8,7 +8,6 @@ function mycalculator() {
     //Processing: Convert the string to real whole numbers using parseFloat
     number1 = parseFloat(number1);
     number2 = parseFloat(number2);
-    operator = parseFloat(operator);
     answer = parseFloat(answer);
     //Output: assign the message according to the operator selected and the output answer
     let total;
