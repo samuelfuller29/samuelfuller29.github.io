@@ -10,8 +10,8 @@ function footWear() {
         shoes = "boots"
     } else if (weather == "Rain") {
         shoes = "galoshes"
-    } else if (weather == "Uknown") {
-        shoes = "Unknown"
+    } else if (weather == "Unknown") {
+        shoes = "Shoes"
     }
     let output = shoes;
 
