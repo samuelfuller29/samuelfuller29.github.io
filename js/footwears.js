@@ -1,8 +1,8 @@
 function footWear() {
 
-    //INPUT:  Read the weather from the user.
+    //INPUT:  Get the weather value from the user.
     let weather = document.getElementById("weather").value;
-    //PROCESSING: Select the correct input
+    //PROCESSING: Take the input weather from the combo box and combine it to the shoe type the user will want to wear.
     let shoes;
     if (weather == "Hot") {
         shoes = "If it is hot let's wear sandals"
@@ -15,6 +15,6 @@ function footWear() {
     }
     let output = shoes;
 
-    //Output: Display the message to the user
+    //Output: Display the message to the user with shoes for the weather selected.
     document.getElementById("output").innerHTML = shoes;
 }
