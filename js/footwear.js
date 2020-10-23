@@ -4,7 +4,7 @@ function footWear() {
     let weather = document.getElementById("weather").value;
     //PROCESSING: Select the correct input
     let shoes;
-    if (weather == "hot") {
+    if (weather == "Hot") {
         shoes = "Sandals"
     } else if (weather == "Snow") {
         shoes = "boots"
