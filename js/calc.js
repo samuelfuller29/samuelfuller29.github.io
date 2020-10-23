@@ -42,7 +42,7 @@ function mycalculator() {
             message = "Incorrect 😥"
         }    
     }
-    document.getElementById("ouput").innerHTML = message
+    document.getElementById("ouput").innerHTML = message;
 }
 
 
