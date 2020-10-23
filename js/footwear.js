@@ -1,16 +1,18 @@
-function getShoes()
-// Input weather from combo box
-let weather = document.getElementById('weather').value;
-// Processing
-if (weather === "snow") {
-    shoes = "Boots"
-} else if (weather === "rain") {
-    shoes = "galoshes"
-} else if (weather === "hot") {
-    shoes = "sandals"
-} else if (weather === "unknown") {
-    shoes = "shoes"
-}
-// Output
-document.getElementById('').innerHTML = getShoes;
+function footWear() {
+
+    //INPUT:  Get the weather from the user.
+    let weather = document.getElementById("weather").value;
+    //PROCESSING: Select the correct input
+    let shoes;
+    if (weather == "hot") {
+        shoes = "Sandals"
+    } else if (weather == "Snow") {
+        shoes = "boots"
+    } else if (weather == "Rain") {
+        shoes = "galoshes"
+    }
+    let output = shoes;
+
+    //Output: Display the message to the user
+    document.getElementById("output").innerHTML = shoes;
 }
