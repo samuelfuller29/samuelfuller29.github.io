@@ -10,7 +10,8 @@ function footWear() {
         shoes = "boots"
     } else if (weather == "Rain") {
         shoes = "galoshes"
-    }
+    } else if (weather == "Unknown") {
+        shoes = "The weather today is going to be unpredictable better be ready for anything!" {
     let output = shoes;
 
     //Output: Display the message to the user
