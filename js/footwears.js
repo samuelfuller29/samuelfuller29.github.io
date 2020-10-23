@@ -5,13 +5,13 @@ function footWear() {
     //PROCESSING: Select the correct input
     let shoes;
     if (weather == "Hot") {
-        shoes = "sandals"
+        shoes = "If it is hot let's wear sandals"
     } else if (weather == "Snow") {
-        shoes = "boots"
+        shoes = "If it is snowing let's wear boots"
     } else if (weather == "Rain") {
-        shoes = "galoshes"
+        shoes = "If it is raining let's wear galoshes"
     } else if (weather == "Unknown") {
-        shoes = "Unknown"
+        shoes = "Then it is hard to decide what to wear"
     }
     let output = shoes;
 
