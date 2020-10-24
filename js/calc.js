@@ -1,11 +1,11 @@
-function calculator() {
+function basicCalculator() {
     //input:
-    //student imputs their numbers
+    //student imputs their munbers
     //student inputs their operator
 
-    let nummber1 = parseFloat(document.getElementById('number1').value);
-    let number2= parseFloat(document.getElementById('number2').value);
-    let myAnswer = parseFloat(document.getElementById('myAnswer').value);
+    let num1 = parseFloat(document.getElementById('number1').value);
+    let num2= parseFloat(document.getElementById('number2').value);
+    let myans = parseFloat(document.getElementById('myanswer').value);
     let operator = (document.getElementById('operator').value);
     //Processing:
     //compute the problem
@@ -15,35 +15,35 @@ function calculator() {
     let answer;
     switch(operator) {
         case '+':
-            answer = parseFloat(number1 + number2);
-            if (myAnswer == answer){
-                message = "You are correct! 🏆" 
+            answer = parseFloat(num1 + num2);
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥, try again."
+                message = "Incorrect, but you can try again."
             }
             break;
         case '-':
-            answer = parseFloat(number1 - number2);
-            if (myAnswer == answer){
-                message = "You are correct! 🏆"
+            answer = parseFloat(num1 - num2);
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥, try again."
+                message = "Incorrect, but you can try again."
             }
             break;
         case '*':
-            answer = parseFloat(number1 * number2);
-            if (myAnswer == answer){
-                message = "You are correct! 🏆"
+            answer = parseFloat(num1 * num2);
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥, try again."
+                message = "Incorrect, but you can try again."
+            }
             break;
-        
-        case  '/':
-            answer = parseFloat(numebr1/number2);
-            if (myAnswer == answer){
-                message = "You are correct! 🏆"
+        case '/':
+            answer = parseFloat(num1/num2);
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥, try again."
+                message = "Incorrect, but you can try again."
             }
             break;         
     }
@@ -53,3 +53,5 @@ function calculator() {
     //Check their answer
     document.getElementById('output').innerHTML = message
 }
+
+
