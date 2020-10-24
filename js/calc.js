@@ -40,7 +40,7 @@ function mycalculator() {
             message = "Correct! 🏆"
         } else {
             message = "Incorrect 😥"
-        }    
+        }
     }
     document.getElementById("ouput").innerHTML = message;
 }
