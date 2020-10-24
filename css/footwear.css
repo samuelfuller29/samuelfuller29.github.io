@@ -9,7 +9,7 @@ footer {
 }
 
 footer {
-	font-size: 13px;
+	font-size: 14px;
 	letter-spacing: 1.5pt;
 }
 
@@ -24,7 +24,7 @@ h2, #currentdate {
 
 main {
 	margin: 10px auto;
-	border: 1px solid #999;
+	border: 2px solid #999;
 	padding: 10px;
 	max-width: 500px;
 	background-color: rgb(120, 194, 228);
@@ -34,7 +34,7 @@ main {
 h3 {
 	font-size: 24px;
 	margin: 0 0 15px 0;
-	border-bottom: 1px solid rgb(3, 3, 3);
+	border-bottom: 1px solid #999;
 	padding: 0;
 }
 
