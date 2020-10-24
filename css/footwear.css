@@ -27,7 +27,7 @@ main {
 	border: 1px solid #999;
 	padding: 10px;
 	max-width: 500px;
-	background-color: #0b3f27;
+	background-color: rgb(44, 155, 63);
 	box-shadow: 0 0 30px;
 }
 
