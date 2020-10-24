@@ -1,56 +1,55 @@
-function mycalculator() {
-    //Input: Get two numbers and one basic operator from the user.
-    let number1 = document.getElementById("number1").value;
-    let operator = document.getElementById("operator").value;
-    let number2 = document.getElementById("number2").value;
-    let answer = document.getElementById("answer").value;
+function myCalculator() {
+    /*input:
+    student imputs two numbers of thier choosing
+    student inputs their operator +,-,*,or/ */
 
-    //Processing: Convert the string to real whole numbers using parseFloat
-    number1 = parseFloat(number1);
-    number2 = parseFloat(number2);
-    answer = parseFloat(answer);
-    //Output: assign the message according to the operator selected and the output answer
-    let total;
+    let number1 = parseFloat(document.getElementById('number1').value);
+    let number2= parseFloat(document.getElementById('number2').value);
+    let myanswer = parseFloat(document.getElementById('myanswer').value);
+    let operator = (document.getElementById('operator').value);
+    /*Processing:
+    compute the problem
+    using a switch case for operator*/
+    
     let message;
-
-    if (operator == "+") {
-        total = number1 + number2
-        if (total == answer) {
-            message = "Correct! 🏆"
-        } else {
-            message = "Incorrect 😥"
-        }
-    } else if (operator == "-") {
-        total = number1 - number2
-        if (total == answer) {
-            message = "Correct! 🏆"
-        } else {
-            message = "Incorrect 😥"
-        }
-    } else if (operator == "*") {
-        total = number1 - number2
-        if (total == answer) {
-            message = "Correct! 🏆"
-        } else {
-            message = "Incorrect 😥"
-        }
-    } else if (operator == "/") {
-        total = number1 - number2
-        if (total == answer) {
-            message = "Correct! 🏆"
-        } else {
-            message = "Incorrect 😥"
-        }
-    }
-    document.getElementById("ouput").innerHTML = message;
-}
-
-
-
-
-
-
-
-
-
+    let answer;
+    switch(operator) {
+        case '+':
+            answer = parseFloat(num1 + num2);
+            if (myanswer == answer){
+                message = "Correct!🏆"
+            } else {
+                message = "Incorrect 😥"
             }
+            break;
+        case '-':
+            answer = parseFloat(num1 - num2);
+            if (myanswer == answer){
+                message = "Correct! 🏆"
+            } else {
+                message = "Incorrect 😥."
+            }
+            break;
+        case '*':
+            answer = parseFloat(num1 * num2);
+            if (myanswer == answer){
+                message = "Correct! 🏆"
+            } else {
+                message = "Incorrect 😥."
+            }
+            break;
+        case '/':
+            answer = parseFloat(num1/num2);
+            if (myanswer == answer){
+                message = "Correct! 🏆"
+            } else {
+                message = "Incorrect 😥"
+            }
+            break;         
+    }
+
+   
+    /*Output:
+    Check their answer*/
+    document.getElementById('output').innerHTML = message
+}
