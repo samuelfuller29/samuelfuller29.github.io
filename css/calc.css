@@ -1,7 +1,5 @@
 body {
     text-align: center;
-    background-image: url("img_tree.gif"), url("paper.gif");
-  background-repeat: no-repeat, repeat;
 }
 header,
 footer {
@@ -29,7 +27,7 @@ main {
 	border: 1px solid #999;
 	padding: 10px;
 	max-width: 500px;
-	background-color: #e4c5eb;
+	background-color:  rgb(240, 169, 16);
 	box-shadow: 0 0 30px;
 }
 
