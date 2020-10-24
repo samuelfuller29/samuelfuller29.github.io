@@ -1,15 +1,15 @@
 function calculator() {
-    //input:
-    //student imputs their munbers
-    //student inputs their operator
+    /*input:
+    user enters two numbers
+    user chooses operator*/
 
     let num1 = parseFloat(document.getElementById('number1').value);
     let num2= parseFloat(document.getElementById('number2').value);
     let num3 = parseFloat(document.getElementById('myAnswer').value);
     let operator = (document.getElementById('operator').value);
-    //Processing:
-    //compute the problem
-    //use switch case for operator
+    /*Processing:
+    combine two numbers together using selected operator
+    use switch case to select the operator*/
     
     let message;
     let answer;
@@ -17,39 +17,39 @@ function calculator() {
         case '+':
             answer = parseFloat(num1 + num2);
             if (num3 == answer){
-                message = "Correct! Great Job."
+                message = "Correct! 🏆"
             } else {
-                message = "Incorrect, but you can try again."
+                message = "Incorrect 😥"
             }
             break;
         case '-':
             answer = parseFloat(num1 - num2);
             if (num3 == answer){
-                message = "Correct! Great Job."
+                message = "Correct! 🏆"
             } else {
-                message = "Incorrect, but you can try again."
+                message = "Incorrect 😥"
             }
             break;
         case '*':
             answer = parseFloat(num1 * num2);
             if (num3 == answer){
-                message = "Correct! Great Job."
+                message = "Correct! 🏆"
             } else {
-                message = "Incorrect, but you can try again."
+                message = "Incorrect 😥"
             }
             break;
         case '/':
             answer = parseFloat(num1/num2);
             if (num3 == answer){
-                message = "Correct! Great Job."
+                message = "Correct! 🏆"
             } else {
-                message = "Incorrect, but you can try again."
+                message = "Incorrect 😥"
             }
             break;         
     }
 
    
-    //Output:
-    //Check their answer
+    /*Output:
+    Check users answer and send output message saying either correct or incorrect*/
     document.getElementById('output').innerHTML = message
 }
