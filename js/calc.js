@@ -1,4 +1,4 @@
-function myCalculator() {
+function calculator() {
     /*input:
     student imputs two numbers of thier choosing
     student inputs their operator +,-,*,or/ */
