@@ -37,7 +37,8 @@ function calculator() {
             } else {
                 message = "Incorrect 😥, try again."
             break;
-        case '/':
+        
+        case  '/':
             answer = parseFloat(numebr1/number2);
             if (myAnswer == answer){
                 message = "You are correct! 🏆"
