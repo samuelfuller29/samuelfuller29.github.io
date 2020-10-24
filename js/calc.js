@@ -16,34 +16,33 @@ function calculator() {
     switch(operator) {
         case '+':
             answer = parseFloat(num1 + num2);
-            if (myans == answer){
-                message = "You are correct! Great Job." + "🏆"
+            if (myAnswer == answer){
+                message = "You are correct! 🏆" 
             } else {
                 message = "Incorrect 😥, try again."
             }
             break;
         case '-':
             answer = parseFloat(num1 - num2);
-            if (myans == answer){
-                message = "You are correct! Great Job." + "🏆"
+            if (myAnswer == answer){
+                message = "You are correct! 🏆"
             } else {
-                message = "Incorrect, but you can try again."
+                message = "Incorrect 😥, try again."
             }
             break;
         case '*':
             answer = parseFloat(num1 * num2);
-            if (myans == answer){
-                message = "You are correct! Great Job." + "🏆"
+            if (myAnswer == answer){
+                message = "You are correct! 🏆"
             } else {
-                message = "Incorrect, but you can try again."
-            }
+                message = "Incorrect 😥, try again."
             break;
         case '/':
             answer = parseFloat(num1/num2);
-            if (myans == answer){
-                message = "You are correct! Great Job." + "🏆"
+            if (myAnswer == answer){
+                message = "You are correct! 🏆"
             } else {
-                message = "Incorrect, but you can try again."
+                message = "Incorrect 😥, try again."
             }
             break;         
     }
