@@ -4,7 +4,7 @@ body {
 header,
 footer {
 	background-color: #000;
-	color: rgb(44, 155, 63);
+	color: rgb(120, 194, 228);
 	padding: 10px;
 }
 
@@ -27,14 +27,14 @@ main {
 	border: 1px solid #999;
 	padding: 10px;
 	max-width: 500px;
-	background-color: rgb(44, 155, 63);
+	background-color: rgb(120, 194, 228);
 	box-shadow: 0 0 30px;
 }
 
 h3 {
 	font-size: 24px;
 	margin: 0 0 15px 0;
-	border-bottom: 1px solid rgb(159, 165, 79);
+	border-bottom: 1px solid rgb(3, 3, 3);
 	padding: 0;
 }
 
