@@ -1,55 +1,55 @@
 function calculator() {
-    /*input:
-    student imputs two numbers of thier choosing
-    student inputs their operator +,-,*,or/ */
+    //input:
+    //student imputs their numbers
+    //student inputs their operator
 
-    let number1 = parseFloat(document.getElementById('number1').value);
-    let number2= parseFloat(document.getElementById('number2').value);
-    let myanswer = parseFloat(document.getElementById('myanswer').value);
+    let num1 = parseFloat(document.getElementById('number1').value);
+    let num2= parseFloat(document.getElementById('number2').value);
+    let myans = parseFloat(document.getElementById('myanswer').value);
     let operator = (document.getElementById('operator').value);
-    /*Processing:
-    compute the problem
-    using a switch case for operator*/
+    //Processing:
+    //compute the problem
+    //use switch case for operator
     
     let message;
     let answer;
     switch(operator) {
         case '+':
             answer = parseFloat(num1 + num2);
-            if (myanswer == answer){
-                message = "Correct!🏆"
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥"
+                message = "Incorrect, but you can try again."
             }
             break;
         case '-':
             answer = parseFloat(num1 - num2);
-            if (myanswer == answer){
-                message = "Correct! 🏆"
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥."
+                message = "Incorrect, but you can try again."
             }
             break;
         case '*':
             answer = parseFloat(num1 * num2);
-            if (myanswer == answer){
-                message = "Correct! 🏆"
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥."
+                message = "Incorrect, but you can try again."
             }
             break;
         case '/':
             answer = parseFloat(num1/num2);
-            if (myanswer == answer){
-                message = "Correct! 🏆"
+            if (myans == answer){
+                message = "Correct! Great Job."
             } else {
-                message = "Incorrect 😥"
+                message = "Incorrect, but you can try again."
             }
             break;         
     }
 
    
-    /*Output:
-    Check their answer*/
+    //Output:
+    //Check their answer
     document.getElementById('output').innerHTML = message
 }
