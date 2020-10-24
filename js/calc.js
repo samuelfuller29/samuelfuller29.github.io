@@ -3,9 +3,9 @@ function calculator() {
     //student imputs their numbers
     //student inputs their operator
 
-    let num1 = parseFloat(document.getElementById('number1').value);
-    let num2= parseFloat(document.getElementById('number2').value);
-    let myans = parseFloat(document.getElementById('myanswer').value);
+    let nummber1 = parseFloat(document.getElementById('number1').value);
+    let number2= parseFloat(document.getElementById('number2').value);
+    let myAnswer = parseFloat(document.getElementById('myAnswer').value);
     let operator = (document.getElementById('operator').value);
     //Processing:
     //compute the problem
@@ -15,31 +15,31 @@ function calculator() {
     let answer;
     switch(operator) {
         case '+':
-            answer = parseFloat(num1 + num2);
-            if (myanswers == answer){
+            answer = parseFloat(number1 + number2);
+            if (myAnswer == answer){
                 message = "You are correct! 🏆" 
             } else {
                 message = "Incorrect 😥, try again."
             }
             break;
         case '-':
-            answer = parseFloat(num1 - num2);
-            if (myanswers == answer){
+            answer = parseFloat(number1 - number2);
+            if (myAnswer == answer){
                 message = "You are correct! 🏆"
             } else {
                 message = "Incorrect 😥, try again."
             }
             break;
         case '*':
-            answer = parseFloat(num1 * num2);
-            if (myanswers == answer){
+            answer = parseFloat(number1 * number2);
+            if (myAnswer == answer){
                 message = "You are correct! 🏆"
             } else {
                 message = "Incorrect 😥, try again."
             break;
         case '/':
-            answer = parseFloat(num1/num2);
-            if (myanswers == answer){
+            answer = parseFloat(numebr1/number2);
+            if (myAnswer == answer){
                 message = "You are correct! 🏆"
             } else {
                 message = "Incorrect 😥, try again."
