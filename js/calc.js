@@ -16,7 +16,7 @@ function calculator() {
     switch(operator) {
         case '+':
             answer = parseFloat(num1 + num2);
-            if (myAnswer == answer){
+            if (myanswer == answer){
                 message = "You are correct! 🏆" 
             } else {
                 message = "Incorrect 😥, try again."
@@ -24,7 +24,7 @@ function calculator() {
             break;
         case '-':
             answer = parseFloat(num1 - num2);
-            if (myAnswer == answer){
+            if (myanswer == answer){
                 message = "You are correct! 🏆"
             } else {
                 message = "Incorrect 😥, try again."
@@ -32,14 +32,14 @@ function calculator() {
             break;
         case '*':
             answer = parseFloat(num1 * num2);
-            if (myAnswer == answer){
+            if (myanswer == answer){
                 message = "You are correct! 🏆"
             } else {
                 message = "Incorrect 😥, try again."
             break;
         case '/':
             answer = parseFloat(num1/num2);
-            if (myAnswer == answer){
+            if (myanswer == answer){
                 message = "You are correct! 🏆"
             } else {
                 message = "Incorrect 😥, try again."
