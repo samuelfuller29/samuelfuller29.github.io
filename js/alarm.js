@@ -1,4 +1,4 @@
-function sleepTracker() {
+function sleepInChecker() {
     /*INPUT
     all the input is taken from the computer: Date, Month, Week*/
 
