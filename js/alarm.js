@@ -1,4 +1,4 @@
-function sleepCheck() {
+function sleepTracker() {
     /*INPUT
     all the input is taken from the computer: Date, Month, Week*/
 
@@ -9,7 +9,7 @@ function sleepCheck() {
 
     /*PROCESSING
     set message to get up if not a weekend or specified holiday */
-    
+
     let message = "Get Up!";
 
     /*if statement message changes to "Sleep in" if the current day is any of the following:
