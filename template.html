@@ -14,17 +14,23 @@
     </header>
     <main>
         <h3>Add Two Numbers</h3>
-        <label>Enter Number One: <input type="text" id="number1"></label>
-      <label>Enter Number Two: <input type="text" id="number2"></label>
-        <label><button onclick="addNumbers()">Add Numbers</button></label>
+        
         <hr>
-        <p><span id="output"></span></p>
+        <p>="output"></p>
     </main>
     <footer>
         &copy;2020 &bull; Sam Fuller &bull; BYU-Idaho &bull; CIT 160
     </footer> 
     <script>
-
-    </script>   
+    {
+    let output = "";
+    let skip = parseInt(document.getElementById('integerBox').value);
+    let i = 100;
+    while (i >= 0) {
+        output += i + "<br>";
+        i -= skip;
+    }
+    document.getElementById('outputDiv').innerHTML = output;
+}  
 </body>
 </html>
