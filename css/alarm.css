@@ -14,13 +14,15 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	margin: 0;
 }
 
 h2, #currentdate {
 	color: rgba(231, 226, 226, 0.658);
 }
+
 
 main {
 	margin: 10px auto;
