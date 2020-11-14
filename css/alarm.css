@@ -40,7 +40,7 @@ h3 {
 
 label,
 footer {
-    font-family: sans-serif;
+    font-family: sans-serif solid rgba(231, 226, 226, 0.658);
 }
 
 label {
