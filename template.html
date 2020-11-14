@@ -13,16 +13,25 @@
         <h2>Sam Fuller</h2>
     </header>
     <main>
-        <h3>Add Two Numbers</h3>
+        <h3> Week 3</h3>
         
         <hr>
-        <p>="output"></p>
+        
     </main>
     <footer>
         &copy;2020 &bull; Sam Fuller &bull; BYU-Idaho &bull; CIT 160
     </footer> 
     <script> 
-    
+    function countDown() {
+    var output = "";
+    var skip = parseInt(document.getElementById('integer').value);
+    var i = 100;
+    while (i >= 0) {
+        output += i + "<br>";
+        i -= skip;
+    }
+    document.getElementById('output').innerHTML = output;
+}   <p><span id= output></span></p>
     </script>
 </body>
 </html>

@@ -3,7 +3,7 @@ body {
 }
 header,
 footer {
-	background-color: rgb(240, 169, 16);
+	background-color: rgb(47, 29, 150);
 	color: #333;
 	padding: 10px;
 }
@@ -27,7 +27,7 @@ main {
 	border: 1px solid #999;
 	padding: 10px;
 	max-width: 500px;
-	background-color:  rgb(240, 169, 16);
+	background-color:  rgb(47, 29, 150);
 	box-shadow: 0 0 30px;
 }
 
