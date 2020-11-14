@@ -33,7 +33,8 @@ h3 {
 	padding: 5px;
 }
 p {
-	color: white;
+	color: rgba(231, 226, 226, 0.658);
+	padding: 5px;;
 }
 
 main {
