@@ -13,36 +13,40 @@ footer {
 	letter-spacing: 1.5pt;
 }
 
-h1,
-h2,
-h3 {
+h1 {
 	margin: 0;
+	font-family: sans-serif solid rgba(231, 226, 226, 0.658);
+	text-transform: uppercase;
 }
-
-h2, #currentdate {
-	color: rgba(231, 226, 226, 0.658);
+h2 {
+	color: rgb(158, 158, 158);
+	font-size: 24px;
+	font-family: sans-serif solid rgba(231, 226, 226, 0.658);
+	text-transform: uppercase;
 }
-
-
-main {
-	margin: 10px auto;
-	border: 1px solid rgba(231, 226, 226, 0.658);
-	padding: 10px;
-	max-width: 500px;
-	background-color:  rgb(47, 29, 150);
-	box-shadow: 0 0 30px;
-}
-
 h3 {
+	color: rgb(158, 158, 158);
+	font-family: sans-serif solid
 	font-size: 24px;
 	margin: 0 0 15px 0;
 	border-bottom: 1px solid rgba(231, 226, 226, 0.658);
-	padding: 0;
+	padding: 5px;
+}
+p {
+	color: white;
 }
 
-label,
+main {
+	margin: 10px auto;
+	border: 1px solid rgb(24, 24, 24);
+	padding: 10px;
+	max-width: 500px;
+	background-color: rgb(47, 29, 150);
+	box-shadow: 0 0 30px;
+	border-radius: 10px;
+
 footer {
-    font-family: sans-serif solid rgba(231, 226, 226, 0.658);
+    font-family: 'sans-serif' solid rgba(231, 226, 226, 0.658);
 }
 
 label {
@@ -50,24 +54,15 @@ label {
     padding-right: 10px solid rgba(231, 226, 226, 0.658);
 }
 
-ul {
-	text-align: left;
+input {
+	padding: 10px;
+	border-radius: 5px;
 }
-
-select {
-    font-size: .9rem;
-    padding: 2px 5px;
-}
-
-footer {
-    font-size: .8rem;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-}
-
-.output {
-    background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
-    position: relative;
+button {
+	padding: 10px;
+	background-color:  rgba(231, 226, 226, 0.658);
+	font-family: sans-serif
+	border: 1px solid black;
+	border-radius: 5px;
 }
 
