@@ -4,17 +4,17 @@
  */
 function powerTwo() {
     //Initialize variables
-    let power = "";
+    let powerTwo = "";
     let powerOut = "";
     let p = 0;
     //Calculate the powers of 2 from 0 through 31
     for (p = 0; p <= 31; p++) {
-        power = Math.pow(2, p);
+        powerTwo = Math.pow(2, p);
         if (p < 31) {
-            powerOut = powerOut + power + ", ";
+            powerOut = powerOut + powerTwo + ", ";
 
         } else {
-            powerOut = powerOut + power;
+            powerOut = powerOut + powerTwo;
         }
     }
 
