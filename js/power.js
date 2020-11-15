@@ -2,7 +2,7 @@
  *PROCESSING: Interate from 0 to 31 and calculate the successive powers of 2
  *OUITPUT: S string of the power resutts seperated by a comma with the last result not followed by a comma
  */
-function power() {
+function powerTwo() {
     //Initialize variables
     let power = "";
     let powerOut = "";
