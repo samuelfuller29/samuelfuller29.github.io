@@ -4,22 +4,22 @@
   //not followed by a comma
  
 function PowersOfTwo() {
-    //Initialize variables
+    //Input variables
     let pow2 = "";
-    let powerOut = "";
+    let powerOutput = "";
     let p = 0;
     //Calculate the powers of 2 from 0 through 31, inclusive.
     for (p = 0; p <= 31; p++) {
         pow2 = Math.pow(2, p);
         if (p < 31) {
-            powerOut = powerOut + pow2 + ", ";
+            powerOutput = powerOutput + pow2 + ", ";
 
         } else {
-            powerOut = powerOut + power;
+            powerOutput = powerOutput + pow2;
         }
     }
 
 
     //OUTPUT
-    document.getElementById("output").innerHTML = powerOut;
+    document.getElementById("output").innerHTML = powerOutput;
 }
