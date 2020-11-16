@@ -15,9 +15,9 @@
   </header>
   <main>
     <h3>Week 9 Test:Three Fields </h3>
-    <label>enter a first number<input type="text" id="start"> </label>
-    <label>enter a second number<input type="text" id="end"> </label>
-    <label>enter a third number<input type="text" id="divisor"></label>
+    <label>enter a first integer<input type="text" id="start"> </label>
+    <label>enter a second integer <input type="text" id="end"> </label>
+    <label>enter a third integer<input type="text" id="divisor"></label>
     <button class="btnColor" onclick="CheckUsersInputs()">Click to show numbers divisible by third numner</button>
     <hr>
 
@@ -33,9 +33,9 @@ function CheckUsersInputs() {
     user enters three numbers*/
     
 
-    let num1 = parseFloat(document.getElementById("start").value);
-    let num2= parseFloat(document.getElementById("end").value);
-    let num3 = parseFloat(document.getElementById("divisor").value);
+    let num1 = parseInt(document.getElementById("start").value);
+    let num2= parseInt(document.getElementById("end").value);
+    let num3 = parseInt(document.getElementById("divisor").value);
     
    
     /*Processing:
