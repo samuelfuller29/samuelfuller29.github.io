@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerTwo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Week 9 Test: Powers of two</h1>
+    <h2>Sam Fuller</h2>
+  </header>
+  <main>
+    <h3>Week 9 Test: </h3>
+    <label>enter a first number<input type="text" id="start"> </label>
+    <label>enter a second number<input type="text" id="end"> </label>
+    <label>enter a third number<input type="text" id="divisor"></label>
+    <button class="btnColor" onclick="CheckUsersInputs()">Click to show numbers divisible by third numner</button>
+    <hr>
+
+
+    <div id="output"></div>
+  </main>
+  <footer>
+    &copy;2020 &bull; Sam Fuller &bull; BYU-Idaho &bull; CIT 160-16
+  </footer>
+  <script>
+function CheckUsersInputs() {
+    /*input:
+    user enters three numbers*/
+    
+
+    let num1 = parseFloat(document.getElementById("start").value);
+    let num2= parseFloat(document.getElementById("end").value);
+    let num3 = parseFloat(document.getElementById("divisor").value);
+    
+   
+    /*Processing:
+  
+    Take user input from input counting from num1 to num2 and 
+    any time the number is divisible by number 3 we add it to the output string "".*/
+    
+    let message = "";
+      for (; num1 <= num2; num1++){
+       if ((num1 % num3) == 0){
+         message += num1 + " "; 
+       }
+      }
+    
+   
+    /*Output:
+    display message to output when button click*/
+    document.getElementById('output').innerHTML = message
+}
+
+
+
+  </script>
+</body>
+
+</html>
